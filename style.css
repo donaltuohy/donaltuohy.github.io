@@ -1,0 +1,25 @@
+.links,
+
+body {
+  background-color: #f7f7f7;
+}
+.banner-component {
+  font-family: sans-serif;
+}
+
+.links {
+  list-style: none;
+}
+
+.banner-component {
+  display: inline-block;
+}
+
+.banner-component h1 {
+  padding-left: 20px;
+  align-content: center;
+}
+
+.profile {
+  border-radius: 50%;
+}
