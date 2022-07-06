@@ -1,17 +1,24 @@
 .links,
 
 body {
-  font-family: 'Inter', sans-serif;
-  color: #343a40;
-
-}
-
-
-.whole-page-flex-box {
+  margin-top: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Inter', sans-serif;
+  color: #343a40;
+}
+
+.whole-page-flex-box {
+  display: flex;
+  max-width: fit-content;
+  justify-content: center;
+  align-items: center;
   gap: 50px;
+  box-shadow: 0px 3px 50px rgba(0, 0, 0, 0.13);
+  padding: 40px;
+  padding-top: 0px;
+  border-radius: 15px;
 }
 
 .content { 
@@ -29,7 +36,7 @@ body {
 .page-profile img {
   height: 250px;
   width: 250px;
-  border-radius: 25%;
+  border-radius: 15px;
   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.13);
 }
 
@@ -50,11 +57,13 @@ body {
 .page-heading img { 
   height: 250px;
   width:  250px;
-  border-radius: 10px;
+  border-radius: 1px;
 }
 
 .blurb {
   font-size: 20px;
+  font-weight: 6000;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,7 +74,6 @@ body {
   gap: 40px;
   align-items: center;
   justify-content: center;
-
 }
 
 .social-icon { 
@@ -76,21 +84,21 @@ body {
   justify-self: center;
  
   fill: #ffffff;
-  stroke: black;
 
   padding: 20px;
   width: 40px;
   height: 40px;
-  border-radius: 25%;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.13);
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
 
   transition-timing-function: linear;
 }
 
-.social-icon:hover {
+.social-icon:hover,
+.social-icon:active {
   background-color: #20c997;
   width: 45px;
   height: 45px;
   padding: 17px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
