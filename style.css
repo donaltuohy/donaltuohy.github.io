@@ -1,25 +1,96 @@
 .links,
 
 body {
-  background-color: #f7f7f7;
+  font-family: 'Inter', sans-serif;
+  color: #343a40;
+
 }
-.banner-component {
+
+
+.whole-page-flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.content { 
+  display: grid;
+  grid-template-columns: repeat(1fr, 3);
+}
+
+.page-profile {
   font-family: sans-serif;
+
+  align-self: flex-end;
+  border-radius: 10px;
 }
 
-.links {
-  list-style: none;
+.page-profile img {
+  height: 250px;
+  width: 250px;
+  border-radius: 25%;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.13);
 }
 
-.banner-component {
-  display: inline-block;
+.name {
+  font-size: 40px;
+  height: 150px;
+  color: #087f5b;
 }
 
-.banner-component h1 {
-  padding-left: 20px;
-  align-content: center;
+.page-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 50px;
 }
 
-.profile {
-  border-radius: 50%;
+.page-heading img { 
+  height: 250px;
+  width:  250px;
+  border-radius: 10px;
+}
+
+.blurb {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials-box {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.social-icon { 
+  background-color: #38d9a9;
+  display: block;
+ 
+  align-self: center;
+  justify-self: center;
+ 
+  fill: #ffffff;
+  stroke: black;
+
+  padding: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 25%;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.13);
+
+  transition-timing-function: linear;
+}
+
+.social-icon:hover {
+  background-color: #20c997;
+  width: 45px;
+  height: 45px;
+  padding: 17px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
